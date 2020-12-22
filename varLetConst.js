@@ -1,3 +1,5 @@
+//Contrary to the 'var' the 'let' and 'const' keywords support the declaration of local scope iside block statement
+
 if(true){
     //this 'if' condition block doesn't create a scope
     
