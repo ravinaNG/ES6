@@ -1,7 +1,8 @@
-var printNumTwo;
-for (var i = 0; i < 3; i++) {
-  if (i === 2) {
+let printNumTwo;
+for (let i = 0; i <= 3; i++) {
+  if (i === 3) {
     printNumTwo = function() {
+      console.log(i)
       return i;
     };
   }
